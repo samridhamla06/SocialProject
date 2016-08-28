@@ -1,5 +1,5 @@
 var express = require('express');
-var users = require('../Model/user.js');
+var users = require('./user.js');
 var router = express.Router();
 router.post('/', function (req, res) {
     users.create(req.body,function(err){

@@ -1,5 +1,5 @@
 var express = require('express');
-var passwords = require('../Model/passwords.js');
+var passwords = require('./passwords.js');
 var jwt = require('jsonwebtoken');
 var router = express.Router();
 
